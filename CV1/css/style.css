@@ -1,0 +1,98 @@
+body{
+	
+	margin: 0px;
+	padding: 0px;
+	background-image: radial-gradient(#e3c5c5 24%, #e3d9a7 74%);
+	height: 100vh;
+	font-family: system-ui;
+
+}
+.clearfix{
+	clear: both;
+}
+.main{
+	height: 1500px;
+	width:1000px;
+	background-color: white;
+	box-shadow: 5px 7px 15px 5px #b6b9b6;
+	margin: 30px auto;
+
+}
+
+.top-section{   /*Chỉnh từ dưới chỉnh lên */
+	background-color:#8fa29f;
+	text-align: center;
+	padding: 20px;
+}
+.profile{
+	width:220px;
+	border-radius: 40%;
+}
+.p1{
+	color: white;
+	font-size: 41px;
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 0px;
+}
+.p1 span{
+	font-weight: 100;
+	color: #c7c7c7;
+}
+.p2{
+	font-size: 30px;
+	color: #573636;
+	margin: 1px;
+	margin-top: 5px;
+}
+.col-div-4{
+	width: 32%;
+	float: left;
+
+}
+.col-div-8{
+	width: 50%;
+	float: left;
+}
+.line{
+	border-left: 1px solid #c7c7c7;
+  height: 1110px;
+  width: 2%;
+  margin-top: 30px;
+  float:left;
+}
+.content-box{
+	padding: 4px;
+}
+/*PHẦN IN ĐẬM */
+.head{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.p3{
+	color: #7b7b7b;
+	margin-bottom: -2px;
+
+}
+.fa{
+	color: #151b29;
+}
+/*chỉnh khoảng cách trái phải của phần My Skills*/
+.skills{
+	margin-left: -20px;
+	    margin-bottom: 0px;
+}
+/*chỉnh khoảng cách dòng của phần My Skills*/
+.skills li{
+	padding: 4px;
+}
+
+.skills li span{
+	color: #7b7b7b;
+}
+/*chỉnh all TEXT sz của phần Experience*/
+.p-4{
+	font-size: 16px;
+	color: #7b7b7b;
+}

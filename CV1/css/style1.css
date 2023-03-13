@@ -1,0 +1,56 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+/* container */
+.container{
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* header */
+.header-wrapper{
+    background-color: #8fa29f;
+}
+/* cv avatar */
+.avt-wrapper{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.avt-wrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* content  */
+.content-wrapper{
+    padding: 20px 0;
+}
+/* content left */
+.item-right-wrapper,
+.item-left-wrapper{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.item-content-wrapper{
+    /* margin-left: 20px; */
+}

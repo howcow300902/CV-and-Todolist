@@ -1,0 +1,108 @@
+body {
+    background-image: url("3.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size:100% 500%;
+  }
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #895151;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 12px;
+    border: 2px solid rgb(214, 164, 164);
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+  }
+  /* Add task color  */
+  button {
+    background-color: #aeafa8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #c4e8c6;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #888888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #taskCount {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #clearButton {
+    background-color: #93c4c9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  
+  #clearButton:hover {
+    background-color: #a2d7d0;
+  }
+  
